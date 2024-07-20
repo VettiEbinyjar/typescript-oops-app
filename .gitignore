@@ -1,0 +1,33 @@
+./.gitignore
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build output
+/dist/
+/out/
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+/.pnp/
+.pnp.js
+
+# Testing
+/coverage/
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
