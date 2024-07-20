@@ -19,8 +19,8 @@ This repository contains a backend application built using TypeScript, Express, 
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/backend-app.git
-   cd backend-app
+   git clone https://github.com/VettiEbinyjar/typescript-oops-app.git
+   cd typescript-oops-app
    ```
 
 2. Install the dependencies:
@@ -57,7 +57,7 @@ This will start the server using `nodemon` and `ts-node`.
 ### Authentication
 
 - **Register**: `POST /auth/register`
-  - Body: `{ "name": "John Doe", "email": "john@example.com", "password": "yourpassword" }`
+  - Body: `{ "name": "John Doe", "email": "john@example.com", "password": "yourpassword", age: 26 }`
   - Response: `{ "token": "your_jwt_token" }`
 
 - **Login**: `POST /auth/login`
